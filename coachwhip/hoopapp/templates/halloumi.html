@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>Making your job easier</title>
+        <link rel="icon" type="image/png" href="{% static 'images/faviconbanditgirl.png'%}">
+        <link rel="stylesheet" type="text/css" href="{% static '/css/homepage.css'%}">
+        <script type="text/javascript" src="{% static '/js/script.js'%}"></script>
+    </head>
+<body>
+    <div class="opening_header">
+        <div>
+            <img  class="opening_header_portrait" href="{% static '/images/portrait.jpg'%}">
+        </div>
+        <div class="opening_header_text">
+            <h1>Opening header</h1>
+        </div>        
+    </div>
+    <div class="skills_lists">
+        <h1>Skills lists header</h1>
+        <div class="container">
+            <div class="box">
+                <div class="box-row">
+                    <div class="box-cell box1">
+                        <h2>Software Development</h2>
+                        <ol>list of sd stuff</ol>
+                        <ol>list of sd stuff</ol>
+                        <ol>list of sd stuff</ol>
+                    </div>
+
+                    <div class="box-cell box2">
+                        <h2>Software Testing</h2>
+                        <ol>list of st stuff</ol>
+                        <ol>list of st stuff</ol>
+                        <ol>list of st stuff</ol>
+                    </div>
+
+                    <div class="box-cell box3">
+                        <h2>Project Management</h2>
+                        <ol>list of pm stuff</ol>
+                        <ol>list of pm stuff</ol>
+                        <ol>list of pm stuff</ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div><br>
+    <div class="video_interview">
+        <h1>Video interview header</h1>
+        <video width="320" height="240" controls>
+            <source type="video/mp4" src="{% static 'video/test_video_interview.mp4'%}">
+        </video>
+        <video width="320" height="240" controls>
+            <source  type="video/mp4" src="{% static 'video/test_video_two.mp4'%}">
+        </video>
+    </div>
+    <div class="experience_summary">
+        <h1 class="experience_summary_header">Experience summary header</h1>
+        <div>
+            <div class="met_office">    
+                <img class="met_office_logo" src="{% static '/images/Met_Office_logo.png' width='50px'%}">
+                    <p class="met_office_experience">
+                        Some stuff I did whilst working there plus a list of technologies.<br>
+                        Other words to indicate skills gained that includes working practices.<br>
+                        Some indication of training undertaken and how this was applied.
+                    </p><br>
+                        <div class="tools_list">
+                            <ol>python</ol>
+                            <ol>numpy</ol>
+                            <ol>something else</ol>
+                        </div>
+                    </p><br>
+            </div><br>
+            <div class="landmark">
+                <img class="landmark_logo" src="{% static '/images/landmark_logo.png' width='100px'%}">
+                 <p class="landmark_experience">
+                    Some stuff I did here and some technologies used.
+                </p><br>
+                <div class="tools_list">
+                    <ol>python</ol>
+                    <ol>numpy</ol>
+                    <ol>something else</ol>
+                </div>
+            </p><br>
+            </div>
+        </div>
+    </div>
+    <div class="contact_details">
+        <h1>Contact details header</h1>
+        <p id="contact_details">
+            <ul>email
+            github
+            linkedin
+            kaggle</ul>    
+        </p>
+    </div>
+</body> 
+</html>

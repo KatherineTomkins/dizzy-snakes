@@ -1,0 +1,110 @@
+.opening_header {
+    background-color: peachpuff;
+    font-family: Garamond, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opening_header .opening_header_portrait {
+
+    width: 100px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.opening_header .opening_header_text {
+    font-size: xx-large;
+    float: left;
+}
+
+.skills_lists {
+    background-color: silver;
+    font-family: Garamond, serif;
+    display: table;
+    text-align: center;
+    width: 100%;
+    width: 100vw;
+    padding: 20px
+
+}
+    .container .box {
+        display: flex;
+        align-items: left;
+        justify-content: center;
+    }
+
+    .container .box .box-row {
+        display: table-row;        
+    }
+
+    .container .box .box-cell {
+        display: table-cell;
+        width: 33%;
+        padding: 10px;
+     
+    }
+
+    .container .box .box-cell.box1 {
+        background: rgb(190, 148, 190);
+        color: white;
+        text-align: justify;
+    }
+
+    .container .box .box-cell.box2 {
+        background: rgb(212, 206, 216);
+        text-align: justify
+    }
+
+    .container .box .box-cell.box3 {
+        background: rgb(169, 150, 170);
+        text-align: justify;
+    }
+
+
+.video_interview {
+    background-color: rgb(225, 237, 237);
+    font-family: Garamond, serif;
+    text-align: center
+}
+
+.experience_summary {
+    background-color: pink;
+    font-family: Garamond, serif;
+    padding: 20px;
+
+}
+
+.experience_summary .experience_summary_header {
+    text-align: center;   
+}
+
+.experience_summary .met_office {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+.experience_summary .met_office_logo {
+    display: flex;
+    float: left;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.experience_summary .landmark {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+.experience_summary .landmark_logo {
+    display: flex;
+    float: left;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.contact_details {
+    background-color: silver;
+    font-family: Garamond, serif;
+    text-align: center
+}
